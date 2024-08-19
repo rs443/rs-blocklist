@@ -37,7 +37,7 @@ aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|s
 !aftonbladet scripts
 *.schibstedt.media/*/*.js
 
-svd.se##a:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):upward(div)
+svd.se##a:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):upward(div):style(border:2px dotted
 
 samnytt.se##.top-24.sticky
 
