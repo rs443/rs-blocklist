@@ -37,7 +37,8 @@ aftonbladet.se##svg:has-text(abplus):upward(a):style(border:3px dotted green)
 *.schibstedt.media/*/*.js
 
 di.se##article:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika/i):style(border:3px dotted pink)
-svd.se##a:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):upward(div):style(border:2px dotted)
+svd.se##a:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):upward(div):style(border:3px dotted pink)
+svd.se##div[data-engage-svd-title]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):style(border:3px dotted blue)
 
 samnytt.se##.top-24.sticky
 
