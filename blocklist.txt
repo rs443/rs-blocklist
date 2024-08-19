@@ -37,6 +37,7 @@ reddit.com##h3:has-text(hidden):upward(3)
 !reddit.com##[href*="capitalism"],[href*="trump"],[href*="elon"],[href*="musk"],[href*="tesla"],[href*="swift"],[href*="trans"],[href*="giveaway"],[href*="democrat"],[href*="republican"],[href*="conserv"],[href*="vance"],[href*="biden"],[href*="harris"],[href*="kamala"],[href*="walz"],[href*="india"]:upward(2)
 reddit.com##.masthead
 reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|musk|tesla|capitalism|money|india|swift|giveaway|trans |lbtq|(need.*name)|jerk/i):style(border:2px dotted orange)
+reddit.com##article[aria-label]:has-text(/cat/i):style(border:2px dotted red)
 
 !!old
 !dölj up/down
