@@ -1,7 +1,6 @@
 ! Title: RS Blocklist
 ! Expires: 3 hours
 
-
 !!!! :style(border:3px dotted orange)
 !!!! :style(background-color: cyan)
 
@@ -30,13 +29,12 @@ reddit.com##h3:has-text(hidden):upward(3)
 reddit.com##.masthead
 reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|musk|tesla|capitalism|money|india|swift|giveaway|trans |lbtq|(need.*name)|jerk/i):style(border:2px dotted orange)
 
-di.se##article:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika/i):style(border:3px dotted pink)
-
 aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|recept|wellobe|pod|plus/i):upward(div):style(border:3px dotted pink)
 
 !aftonbladet scripts
 *.schibstedt.media/*/*.js
 
+di.se##article:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika/i):style(border:3px dotted pink)
 svd.se##a:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):upward(div):style(border:2px dotted)
 
 samnytt.se##.top-24.sticky
