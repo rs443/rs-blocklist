@@ -1,6 +1,5 @@
 ! Title: RS Blocklist
-! Expires: 1 day
-! Redirect: https://raw.githubusercontent.com/rs443/rs-blocklist/main/blocklist.txt
+! Expires: 3 hours
 
 
 !!!! :style(border:5px dotted orange)
@@ -38,7 +37,6 @@ reddit.com##h3:has-text(hidden):upward(3)
 !www.reddit.com##.Post:has-text(musk)
 !www.reddit.com##.Post:has-text(trump)
 !##article[aria-label*=Europe]
-!#reddit.com##.Post [data-adclicklocation="title"] [data-click-id="body"]:is([href*="capitalism"],[href*="trump"],[href*="elon"],[href*="swift"],[href*="trans"],[href*="giveaway"]):upward(.Post)
 !reddit.com##[href*="capitalism"],[href*="trump"],[href*="elon"],[href*="musk"],[href*="tesla"],[href*="swift"],[href*="trans"],[href*="giveaway"],[href*="democrat"],[href*="republican"],[href*="conserv"],[href*="vance"],[href*="biden"],[href*="harris"],[href*="kamala"],[href*="walz"],[href*="india"]:upward(2)
 reddit.com##.masthead
 reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|musk|tesla|capitalism|money|india|swift|giveaway|trans |lbtq|(need.*name)|jerk/i):style(border:2px dotted orange)
@@ -61,7 +59,6 @@ www.aftonbladet.se##div > a[aria-label]:has-text(dagens):style(border:3px dotted
 !aftonbladet scripts
 *.schibstedt.media/*/*.js
 
-! 2023-11-20 https://samnytt.se
 samnytt.se##.top-24.sticky
 
 imdb.com##section > section[data-testid*=editorial]
