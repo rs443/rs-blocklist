@@ -1,5 +1,5 @@
 ! Title: RS Blocklist
-! Expires: 3 hours
+! Expires: 6 hours
 
 !!!! :style(border:3px dotted orange)
 !!!! :style(background-color: cyan)
@@ -16,9 +16,9 @@ facebook.com##:matches-path(marketplace) object > a[href^="/ads/"] > span:not(:e
 youtube.com##.ytp-ce-element.ytp-ce-video
 
 torrentleech.org###topcontainer
-tradera.com##div.site-container.bp:nth-child(5) > div.site-main:nth-child(2) > div.start-page.position-relative.start-page--campaign-mode > div.startpage-hero:first-child
-klocksnack.se###top > div.p-body:nth-child(5) > div.p-body-inner > div.samBannerUnit.samAlignCenter:first-child
-klocksnack.se###top > div.p-body:nth-child(5) > div.p-body-inner > div.p-body-main.p-body-main--withSidebar:last-child > div.p-body-content:nth-child(3) > div.samBannerUnit:first-child
+!tradera.com##div.site-container.bp:nth-child(5) > div.site-main:nth-child(2) > div.start-page.position-relative.start-page--campaign-mode > div.startpage-hero:first-child
+!klocksnack.se###top > div.p-body:nth-child(5) > div.p-body-inner > div.samBannerUnit.samAlignCenter:first-child
+!klocksnack.se###top > div.p-body:nth-child(5) > div.p-body-inner > div.p-body-main.p-body-main--withSidebar:last-child > div.p-body-content:nth-child(3) > div.samBannerUnit:first-child
 linkedin.com##span:has-text(Suggested):upward(.relative)
 
 |#google-one-tap-iframe
