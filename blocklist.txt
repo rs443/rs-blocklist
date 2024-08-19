@@ -27,33 +27,17 @@ linkedin.com##span:has-text(Suggested):upward(.relative)
 
 reddit.com###TrendingPostsContainer
 reddit.com##h3:has-text(hidden):upward(3)
-!www.reddit.com##.Post:has-text(capitalism)
-!www.reddit.com##.Post:has-text(billionaire)
-!www.reddit.com##.Post:has-text(musk)
-!www.reddit.com##.Post:has-text(trump)
-!##article[aria-label*=Europe]
-!reddit.com##[href*="capitalism"],[href*="trump"],[href*="elon"],[href*="musk"],[href*="tesla"],[href*="swift"],[href*="trans"],[href*="giveaway"],[href*="democrat"],[href*="republican"],[href*="conserv"],[href*="vance"],[href*="biden"],[href*="harris"],[href*="kamala"],[href*="walz"],[href*="india"]:upward(2)
 reddit.com##.masthead
 reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|musk|tesla|capitalism|money|india|swift|giveaway|trans |lbtq|(need.*name)|jerk/i):style(border:2px dotted orange)
 
-!!old
-!dölj up/down
-!www.reddit.com##.Post [aria-pressed="true"]:upward(.Post)
-!dölj down
-!www.reddit.com##.Post [data-adclicklocation="downvote"][data-click-id="downvote"][aria-pressed="true"]:upward(.Post)
+di.se##article:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika/i):style(border:3px dotted pink)
 
-! Sökord
-!www.di.se##[href*="analys"],[href*="tips"],[href*="ledare"],[href*="kopa"],[href*="bianca"]
-!www.di.se##span:has-text(Krönika):upward(article)
-di.se##article:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|krönika/i):style(border:3px dotted pink)
-
-!www.aftonbladet.se##[href*="trump"],[href*="elon"],[href*="vance"],[href*="harris"],[href*="walz"],[href*="musk"],[href*="bianca"],[href*="kolumn"],[href*="pod"],[href*="kultur"],[href*="ledare"],[href*="motivation"],[href*="swift"],[href*="recept"],[href*="wellobe"],[href*="video"]:style(border:3px dotted orange)
-!www.aftonbladet.se##svg:has-text(abplus):upward(a):nth-ancestor(1):style(border:3px dotted green)
-!www.aftonbladet.se##div > a[aria-label]:has-text(dagens):style(border:3px dotted blue)
 aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|recept|wellobe|pod|plus/i):upward(div):style(border:3px dotted pink)
 
 !aftonbladet scripts
 *.schibstedt.media/*/*.js
+
+svd.se##a:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):upward(div)
 
 samnytt.se##.top-24.sticky
 
@@ -63,3 +47,25 @@ imdb.com##div.swiper-wrapper:upward(div.ipc-page-grid)
 imdb.com##h3.ipc-title__text:has-text(/explore|exclusive|featured/i):upward(4)
 
 warcraftlogs.com##[href*="/subscribe"]:upward(5)
+
+
+
+
+!gammalt
+!!old
+!dölj up/down
+!www.reddit.com##.Post [aria-pressed="true"]:upward(.Post)
+!dölj down
+!www.reddit.com##.Post [data-adclicklocation="downvote"][data-click-id="downvote"][aria-pressed="true"]:upward(.Post)
+
+!www.di.se##[href*="analys"],[href*="tips"],[href*="ledare"],[href*="kopa"],[href*="bianca"]
+!www.di.se##span:has-text(Krönika):upward(article)
+
+!www.aftonbladet.se##[href*="trump"],[href*="elon"],[href*="vance"],[href*="harris"],[href*="walz"],[href*="musk"],[href*="bianca"],[href*="kolumn"],[href*="pod"],[href*="kultur"],[href*="ledare"],[href*="motivation"],[href*="swift"],[href*="recept"],[href*="wellobe"],[href*="video"]:style(border:3px dotted orange)
+!www.aftonbladet.se##svg:has-text(abplus):upward(a):nth-ancestor(1):style(border:3px dotted green)
+!www.aftonbladet.se##div > a[aria-label]:has-text(dagens):style(border:3px dotted blue)
+
+!www.reddit.com##.Post:has-text(musk)
+!www.reddit.com##.Post:has-text(trump)
+!##article[aria-label*=Europe]
+!reddit.com##[href*="capitalism"],[href*="trump"],[href*="elon"],[href*="musk"],[href*="tesla"],[href*="swift"],[href*="trans"],[href*="giveaway"],[href*="democrat"],[href*="republican"],[href*="conserv"],[href*="vance"],[href*="biden"],[href*="harris"],[href*="kamala"],[href*="walz"],[href*="india"]:upward(2)
