@@ -51,6 +51,7 @@ warcraftlogs.com##[href*="/subscribe"]:upward(5)
 
 
 
+
 !gammalt
 !!old
 !dölj up/down
