@@ -16,9 +16,6 @@ facebook.com##:matches-path(marketplace) object > a[href^="/ads/"] > span:not(:e
 youtube.com##.ytp-ce-element.ytp-ce-video
 
 torrentleech.org###topcontainer
-!tradera.com##div.site-container.bp:nth-child(5) > div.site-main:nth-child(2) > div.start-page.position-relative.start-page--campaign-mode > div.startpage-hero:first-child
-!klocksnack.se###top > div.p-body:nth-child(5) > div.p-body-inner > div.samBannerUnit.samAlignCenter:first-child
-!klocksnack.se###top > div.p-body:nth-child(5) > div.p-body-inner > div.p-body-main.p-body-main--withSidebar:last-child > div.p-body-content:nth-child(3) > div.samBannerUnit:first-child
 linkedin.com##span:has-text(Suggested):upward(.relative)
 
 |#google-one-tap-iframe
@@ -27,13 +24,11 @@ linkedin.com##span:has-text(Suggested):upward(.relative)
 reddit.com###TrendingPostsContainer
 reddit.com##h3:has-text(hidden):upward(3)
 reddit.com##.masthead
-reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|candidate|elon|musk|tesla|capitalism|billion|money|india|swift|giveaway|\btrans|lbtq|(need.*name)|jerk|weird|inflation|corporation|greed|basket|nba|football/i):style(border:2px dotted orange)
+reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|candidate|elon|musk|tesla|capitalism|billion|inflation|corporation|greed|wealth|india|swift|giveaway|\btrans|lbtq|(need.*name)|jerk|weird|basket|nba|football/i):style(border:2px dotted orange)
 
 aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|recept|wellobe|pod|plus/i):upward(div)
 aftonbladet.se##[href*="kolumn"],[href*="livsstil"][href*="godare"]:upward(div)
 aftonbladet.se##svg:has-text(abplus):upward(a)
-
-!aftonbladet scripts
 *.schibstedt.media/*/*.js
 
 di.se##article:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika/i)
@@ -59,6 +54,10 @@ warcraftlogs.com##[href*="/subscribe"]:upward(5)
 !www.reddit.com##.Post [aria-pressed="true"]:upward(.Post)
 !dölj down
 !www.reddit.com##.Post [data-adclicklocation="downvote"][data-click-id="downvote"][aria-pressed="true"]:upward(.Post)
+
+!tradera.com##div.site-container.bp:nth-child(5) > div.site-main:nth-child(2) > div.start-page.position-relative.start-page--campaign-mode > div.startpage-hero:first-child
+!klocksnack.se###top > div.p-body:nth-child(5) > div.p-body-inner > div.samBannerUnit.samAlignCenter:first-child
+!klocksnack.se###top > div.p-body:nth-child(5) > div.p-body-inner > div.p-body-main.p-body-main--withSidebar:last-child > div.p-body-content:nth-child(3) > div.samBannerUnit:first-child
 
 !www.di.se##[href*="analys"],[href*="tips"],[href*="ledare"],[href*="kopa"],[href*="bianca"]
 !www.di.se##span:has-text(Krönika):upward(article)
