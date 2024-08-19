@@ -27,7 +27,7 @@ linkedin.com##span:has-text(Suggested):upward(.relative)
 reddit.com###TrendingPostsContainer
 reddit.com##h3:has-text(hidden):upward(3)
 reddit.com##.masthead
-reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|candidate|elon|musk|tesla|capitalism|billion|money|india|swift|giveaway|\btrans|lbtq|(need.*name)|jerk|weird|inflation|corporation|greed/i):style(border:2px dotted orange)
+reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|candidate|elon|musk|tesla|capitalism|billion|money|india|swift|giveaway|\btrans|lbtq|(need.*name)|jerk|weird|inflation|corporation|greed|basket|nba|football/i):style(border:2px dotted orange)
 
 aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|recept|wellobe|pod|plus/i):upward(div)
 aftonbladet.se##[href*="kolumn"],[href*="livsstil"][href*="godare"]:upward(div)
