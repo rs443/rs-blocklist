@@ -30,7 +30,8 @@ reddit.com##.masthead
 reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|musk|tesla|capitalism|money|india|swift|giveaway|trans |lbtq|(need.*name)|jerk|weird/i):style(border:2px dotted orange)
 
 aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|recept|wellobe|pod|plus/i):upward(div):style(border:3px dotted pink)
-aftonbladet.se##a:has-text(/plus/i):upward(div):style(border:6px dotted cyan)
+aftonbladet.se##a:has-text(/plus|kolumn/i):upward(div):style(border:3px dotted cyan)
+aftonbladet.se##svg:has-text(abplus):upward(a):nth-ancestor(1):style(border:3px dotted green)
 
 !aftonbladet scripts
 *.schibstedt.media/*/*.js
