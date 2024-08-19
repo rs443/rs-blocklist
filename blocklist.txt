@@ -1,3 +1,8 @@
+! Title: RS Blocklist
+! Expires: 1 day
+! Redirect: https://raw.githubusercontent.com/rs443/rs-blocklist/main/blocklist.txt
+
+
 !!!! :style(border:5px dotted orange)
 !!!! :style(background-color: cyan)
 
