@@ -30,13 +30,13 @@ reddit.com##.masthead
 reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|musk|tesla|capitalism|money|india|swift|giveaway|\btrans|lbtq|(need.*name)|jerk|weird/i):style(border:2px dotted orange)
 
 aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|recept|wellobe|pod|plus/i):upward(div)
-!aftonbladet.se##a:has-text(/kolumn/i):upward(div)
+aftonbladet.se##a:has-text(/kolumn|livsstil|godare/i):upward(div)
 aftonbladet.se##svg:has-text(abplus):upward(a)
 
 !aftonbladet scripts
 *.schibstedt.media/*/*.js
 
-di.se##article:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika/i):style(border:3px dotted pink)
+di.se##article:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika/i)
 svd.se##a:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):upward(div)
 svd.se##div[data-engage-svd-title]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i)
 
