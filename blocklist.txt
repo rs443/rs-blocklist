@@ -29,9 +29,9 @@ reddit.com##h3:has-text(hidden):upward(3)
 reddit.com##.masthead
 reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|musk|tesla|capitalism|money|india|swift|giveaway|trans |lbtq|(need.*name)|jerk|weird/i):style(border:2px dotted orange)
 
-aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|recept|wellobe|pod|plus/i):upward(div):style(border:3px dotted pink)
-aftonbladet.se##a:has-text(/plus|kolumn/i):upward(div):style(border:3px dotted cyan)
-aftonbladet.se##svg:has-text(abplus):upward(a):style(border:3px dotted green)
+aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|recept|wellobe|pod|plus/i):upward(div)
+!aftonbladet.se##a:has-text(/kolumn/i):upward(div)
+aftonbladet.se##svg:has-text(abplus):upward(a)
 
 !aftonbladet scripts
 *.schibstedt.media/*/*.js
