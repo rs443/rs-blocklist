@@ -9,8 +9,8 @@ reddit.com##h3:has-text(hidden):upward(3)
 reddit.com##.masthead
 reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|candidate|elon|musk|tesla|capitalism|billion|inflation|corporation|greed|wealth|india|swift|giveaway|\btrans|lbtq|(need.*name)|jerk|weird|basket|nba|football|climate/i):style(border:2px dotted orange)
 
-reddit.com##body:style(pointer-events:auto!important;overflow:auto!important;)
 reddit.com##xpromo-app-selector
+reddit.com##body:style(pointer-events:auto!important;overflow:auto!important;)
 
 facebook.com##:matches-path(marketplace) a[href^="/ads/"]:upward(1)
 facebook.com##:matches-path(marketplace) a[href^="/ads/"]:upward(4) + div > div:first-child
