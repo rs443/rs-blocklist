@@ -4,47 +4,46 @@
 !!!! :style(border:3px dotted orange)
 !!!! :style(background-color: cyan)
 
-finance.yahoo.com###Main
-finance.yahoo.com###Aside
-finance.yahoo.com###UH-0-HeaderDesktop-Proxy
-finance.yahoo.com###Navigation > .YDC-Nav
+reddit.com###TrendingPostsContainer
+reddit.com##h3:has-text(hidden):upward(3)
+reddit.com##.masthead
+reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|candidate|elon|musk|tesla|capitalism|billion|inflation|corporation|greed|wealth|india|swift|giveaway|\btrans|lbtq|(need.*name)|jerk|weird|basket|nba|football|climate/i):style(border:2px dotted orange)
+
+reddit.com##body:style(pointer-events:auto!important;overflow:auto!important;)
+reddit.com##xpromo-app-selector
 
 facebook.com##:matches-path(marketplace) a[href^="/ads/"]:upward(1)
 facebook.com##:matches-path(marketplace) a[href^="/ads/"]:upward(4) + div > div:first-child
 facebook.com##:matches-path(marketplace) object > a[href^="/ads/"] > span:not(:empty):upward(11)
 
-youtube.com##.ytp-ce-element.ytp-ce-video
-
-torrentleech.org###topcontainer
-linkedin.com##span:has-text(Suggested):upward(.relative)
-
 |#google-one-tap-iframe
 ||accounts.google.com/gsi/iframe/select$subdocument
-
-reddit.com###TrendingPostsContainer
-reddit.com##h3:has-text(hidden):upward(3)
-reddit.com##.masthead
-reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|candidate|elon|musk|tesla|capitalism|billion|inflation|corporation|greed|wealth|india|swift|giveaway|\btrans|lbtq|(need.*name)|jerk|weird|basket|nba|football|climate/i):style(border:2px dotted orange)
 
 aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|recept|wellobe|pod|plus/i):upward(div)
 aftonbladet.se##[href*="kolumn"],[href*="ledare"],[href*="livsstil"][href*="godare"]:upward(div)
 aftonbladet.se##svg:has-text(abplus):upward(a)
 *.schibstedt.media/*/*.js
 
-di.se##article.teaser:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika/i)
 svd.se##a:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):upward(div)
 svd.se##div[data-engage-svd-title]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i)
 
-samnytt.se##.top-24.sticky
+di.se##article.teaser:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika/i)
 
 imdb.com##section > section[data-testid*=editorial]
 imdb.com##div.swiper-wrapper:upward(div.ipc-page-grid)
 !imdb.com##div.ipc-page-grid > div.ipc-page-grid__item > div > div > div.swiper-container:upward(div.ipc-page-grid)
 imdb.com##h3.ipc-title__text:has-text(/explore|exclusive|featured/i):upward(4)
 
+finance.yahoo.com###Main
+finance.yahoo.com###Aside
+finance.yahoo.com###UH-0-HeaderDesktop-Proxy
+finance.yahoo.com###Navigation > .YDC-Nav
+
+samnytt.se##.top-24.sticky
 warcraftlogs.com##[href*="/subscribe"]:upward(5)
-
-
+torrentleech.org###topcontainer
+linkedin.com##span:has-text(Suggested):upward(.relative)
+youtube.com##.ytp-ce-element.ytp-ce-video
 
 
 
