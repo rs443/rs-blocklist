@@ -3,6 +3,7 @@
 
 !!!! :style(border:3px dotted orange)
 !!!! :style(background-color: cyan)
+!!!! :style(border:2px dotted grey; opacity: 0.35)
 
 reddit.com###TrendingPostsContainer
 reddit.com##h3:has-text(hidden):upward(3)
