@@ -7,7 +7,7 @@
 reddit.com###TrendingPostsContainer
 reddit.com##h3:has-text(hidden):upward(3)
 reddit.com##.masthead
-reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|republic|democrat|conservative|candidate|musk|tesla|capitalism|billion|inflation|corporation|greed|wealth|india|swift|giveaway|\btrans|lbtq|(need.*name)|jerk|basket|nba|football|climate|blackpeople|whitepeople/i):style(border:2px dotted orange)
+reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|obama|republic|democrat|conservative|candidate|musk|tesla|capitalism|billion|inflation|corporation|greed|wealth|india|swift|giveaway|\btrans|lbtq|(need.*name)|jerk|basket|nba|football|climate|blackpeople|whitepeople/i):style(border:2px dotted orange)
 
 reddit.com##xpromo-app-selector
 reddit.com##body:style(pointer-events:auto!important;overflow:auto!important;)
