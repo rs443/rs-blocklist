@@ -3,12 +3,12 @@
 
 !!!! :style(border:3px dotted orange)
 !!!! :style(background-color: cyan)
-!!!! :style(border:2px dotted grey; opacity: 0.35)
+!!!! :style(border:2px dotted grey; opacity: 0.5)
 
 reddit.com###TrendingPostsContainer
 reddit.com##h3:has-text(hidden):upward(3)
 reddit.com##.masthead
-reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|obama|republic|democrat|conservative|candidate|abortion|elon|musk|tesla|capitalism|billionaire|inflation|corporation|greed|india|\bswift\b|giveaway|\btrans\b|lbtq|\bgay|(need.*name)|circlejerk|basket|\bnba|football|climate|blackpeople|whitepeople|tattoo/i):style(border:2px dotted grey; opacity: 0.4)
+reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|obama|republic|democrat|conservative|candidate|abortion|elon|musk|tesla|capitalism|billionaire|inflation|corporation|greed|india|\bswift\b|giveaway|\btrans\b|lbtq|\bgay|(need.*name)|circlejerk|basket|\bnba|football|climate|blackpeople|whitepeople|tattoo/i):style(border:2px dotted grey; opacity: 0.5)
 
 reddit.com##xpromo-app-selector
 reddit.com##body:style(pointer-events:auto!important;overflow:auto!important;)
@@ -20,15 +20,15 @@ facebook.com##:matches-path(marketplace) object > a[href^="/ads/"] > span:not(:e
 |#google-one-tap-iframe
 ||accounts.google.com/gsi/iframe/select$subdocument
 
-aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|recept|wellobe|\bpod|plus/i):upward(div)
-aftonbladet.se##[href*="kolumn"],[href*="ledare"],[href*="livsstil"][href*="godare"]:upward(div)
-aftonbladet.se##svg:has-text(abplus):upward(a)
+aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|recept|wellobe|\bpod|plus/i):upward(div):style(border:2px dotted grey; opacity: 0.5)
+aftonbladet.se##[href*="kolumn"],[href*="ledare"],[href*="livsstil"][href*="godare"]:upward(div):style(border:2px dotted green; opacity: 0.5)
+aftonbladet.se##svg:has-text(abplus):upward(a):style(border:2px dotted blue; opacity: 0.5)
 *.schibstedt.media/*/*.js
 
-svd.se##a:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):upward(div)
-svd.se##div[data-engage-svd-title]:has-text(/trump|harris|\bvance|trump|walz|elon|musk|swift|bianca|ledare|träning/i)
+svd.se##a:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):upward(div):style(border:2px dotted grey; opacity: 0.5)
+svd.se##div[data-engage-svd-title]:has-text(/trump|harris|\bvance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):style(border:2px dotted blue; opacity: 0.5)
 
-di.se##article.teaser:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika/i)
+di.se##article.teaser:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika/i):style(border:2px dotted grey; opacity: 0.5)
 
 imdb.com##section > section[data-testid*=editorial]
 imdb.com##div.swiper-wrapper:upward(div.ipc-page-grid)
