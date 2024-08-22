@@ -20,15 +20,15 @@ facebook.com##:matches-path(marketplace) object > a[href^="/ads/"] > span:not(:e
 |#google-one-tap-iframe
 ||accounts.google.com/gsi/iframe/select$subdocument
 
-aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|recept|wellobe|\bpod|plus/i):upward(div):style(border:2px dotted grey; opacity: 0.5)
-aftonbladet.se##[href*="kolumn"],[href*="ledare"],[href*="livsstil"][href*="godare"]:upward(div):style(border:2px dotted green; opacity: 0.5)
-aftonbladet.se##svg:has-text(abplus):upward(a):style(border:2px dotted blue; opacity: 0.5)
+aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|recept|wellobe|\bpod|plus/i):upward(div)
+aftonbladet.se##[href*="kolumn"],[href*="ledare"],[href*="livsstil"][href*="godare"]:upward(div)
+aftonbladet.se##svg:has-text(abplus):upward(a)
 *.schibstedt.media/*/*.js
 
-svd.se##a:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):upward(div):style(border:2px dotted grey; opacity: 0.5)
-svd.se##div[data-engage-svd-title]:has-text(/trump|harris|\bvance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):style(border:2px dotted blue; opacity: 0.5)
+svd.se##a:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):upward(div)
+svd.se##div[data-engage-svd-title]:has-text(/trump|harris|\bvance|trump|walz|elon|musk|swift|bianca|ledare|träning/i)
 
-di.se##article.teaser:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika/i):style(border:2px dotted grey; opacity: 0.5)
+di.se##article.teaser:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika/i)
 
 imdb.com##section > section[data-testid*=editorial]
 imdb.com##div.swiper-wrapper:upward(div.ipc-page-grid)
