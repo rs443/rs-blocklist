@@ -20,8 +20,8 @@ facebook.com##:matches-path(marketplace) object > a[href^="/ads/"] > span:not(:e
 |#google-one-tap-iframe
 ||accounts.google.com/gsi/iframe/select$subdocument
 
-aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|recept|wellobe|\bpod|plus/i):upward(div)
-aftonbladet.se##[href*="kolumn"],[href*="kultur"],[href*="ledare"],[href*="livsstil"][href*="godare"]:upward(div)
+aftonbladet.se##[aria-label]:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|kolumn|kultur|ledare|motivation|wellobe|\bpod|plus/i):upward(div)
+aftonbladet.se##[href*="kolumn"],[href*="kultur"],[href*="recept"],[href*="ledare"],[href*="livsstil"][href*="godare"]:upward(div)
 aftonbladet.se##svg:has-text(abplus):upward(a)
 *.schibstedt.media/*/*.js
 
