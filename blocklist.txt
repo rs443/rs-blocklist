@@ -28,7 +28,7 @@ aftonbladet.se##svg:has-text(abplus):upward(a)
 svd.se##a:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):upward(div)
 svd.se##div[data-engage-svd-title]:has-text(/trump|harris|\bvance|trump|walz|elon|musk|swift|bianca|ledare|träning/i)
 
-di.se##article.teaser:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika/i)
+di.se##article.teaser:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|köpa|krönika|krog/i)
 
 imdb.com##section > section[data-testid*=editorial]
 imdb.com##div.swiper-wrapper:upward(div.ipc-page-grid)
