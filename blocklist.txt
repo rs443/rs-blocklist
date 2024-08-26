@@ -8,7 +8,7 @@
 reddit.com###TrendingPostsContainer
 reddit.com##h3:has-text(hidden):upward(3)
 reddit.com##.masthead
-reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|obama|republic|democrat|conservative|candidate|abortion|elon|musk|tesla|capitalism|billionaire|inflation|corporation|greed|india|\bswift\b|giveaway|\btrans\b|lbtq|lgbt|\bgay|(need.*name)|(suggest.*name)|circlejerk|basket|\bnba|football|climate|blackpeople|whitepeople|tattoo/i):style(border:2px dotted grey; opacity: 0.5)
+reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|walz|biden|obama|republic|democrat|conservative|candidate|abortion|\belon|\bmusk|tesla|capitalism|billionaire|inflation|corporation|greed|india|\bswift\b|giveaway|\btrans\b|lbtq|lgbt|\bgay|(need.*name)|(suggest.*name)|circlejerk|basket|\bnba|football|climate|blackpeople|whitepeople|tattoo/i):style(border:2px dotted grey; opacity: 0.5)
 
 reddit.com##xpromo-app-selector
 reddit.com##body:style(pointer-events:auto!important;overflow:auto!important;)
@@ -26,7 +26,7 @@ aftonbladet.se##svg:has-text(abplus):upward(a)
 *.schibstedt.media/*/*.js
 
 svd.se##a:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|ledare|träning/i):upward(div)
-svd.se##div[data-engage-svd-title]:has-text(/trump|harris|\bvance|trump|walz|elon|musk|swift|bianca|ledare|träning/i)
+svd.se##div[data-engage-svd-title]:has-text(/trump|harris|\bvance|trump|walz|\belon|musk|swift|bianca|ledare|träning/i)
 
 di.se##article.teaser:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bianca|tips|veckans|analys|kopa|koplage|köpa|krönika|krog|favorit/i)
 
