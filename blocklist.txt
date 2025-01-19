@@ -32,7 +32,6 @@ di.se##article.teaser:has-text(/trump|harris|vance|trump|walz|elon|musk|swift|bi
 
 imdb.com##section > section[data-testid*=editorial]
 imdb.com##div.swiper-wrapper:upward(div.ipc-page-grid)
-!imdb.com##div.ipc-page-grid > div.ipc-page-grid__item > div > div > div.swiper-container:upward(div.ipc-page-grid)
 imdb.com##h3.ipc-title__text:has-text(/explore|exclusive|featured/i):upward(4)
 
 finance.yahoo.com###Main
@@ -40,7 +39,6 @@ finance.yahoo.com###Aside
 finance.yahoo.com###UH-0-HeaderDesktop-Proxy
 finance.yahoo.com###Navigation > .YDC-Nav
 
-samnytt.se##.top-24.sticky
 warcraftlogs.com##[href*="/subscribe"]:upward(5)
 torrentleech.org###topcontainer
 linkedin.com##span:has-text(Suggested):upward(.relative)
