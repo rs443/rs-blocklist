@@ -46,7 +46,7 @@ youtube.com##.ytp-ce-element.ytp-ce-video
 
 
 
-!gammalt
+!gammalt test labb
 !!old
 !dölj up/down
 !www.reddit.com##.Post [aria-pressed="true"]:upward(.Post)
@@ -65,6 +65,4 @@ youtube.com##.ytp-ce-element.ytp-ce-video
 !www.aftonbladet.se##div > a[aria-label]:has-text(dagens):style(border:3px dotted blue)
 
 !www.reddit.com##.Post:has-text(musk)
-!www.reddit.com##.Post:has-text(trump)
-!##article[aria-label*=Europe]
 !reddit.com##[href*="capitalism"],[href*="trump"],[href*="elon"],[href*="musk"],[href*="tesla"],[href*="swift"],[href*="trans"],[href*="giveaway"],[href*="democrat"],[href*="republican"],[href*="conserv"],[href*="vance"],[href*="biden"],[href*="harris"],[href*="kamala"],[href*="walz"],[href*="india"]:upward(2)
