@@ -46,6 +46,8 @@ torrentleech.org###topcontainer
 linkedin.com##span:has-text(Suggested):upward(.relative)
 youtube.com##.ytp-ce-element.ytp-ce-video
 
+www.perplexity.ai##div.default:has-text(Related):upward(div.mt-lg):upward(div)
+www.perplexity.ai##.md\:block.w-\[300px\].hidden.right-md.bottom-md.fixed
 
 
 !gammalt test labb
