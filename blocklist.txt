@@ -8,7 +8,7 @@
 reddit.com###TrendingPostsContainer
 reddit.com##h3:has-text(hidden):upward(3)
 reddit.com##.masthead
-reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|biden|obama|republic|democrat|conservative|senate|congress|candidate|politic|healthcare|abortion|immigrants|\belon|\bmusk|tesla|capitalism|billionaire|inflation|corporation|greed|tariff|protest|\bCEO|india|\bswift\b|giveaway|\btrans\b|lbtq|lgbt|\bgay|gender|(need.*name)|(suggest.*name)|(name.*suggest)|(draw.*cat)|(cat.*draw)|doodle|adopt|shelter|circlejerk|memewar|basket|football|\bNBA\b|\bNFL\b|climate|blackpeople|whitepeople|tattoo|\baita|luigi|mangione|tiktok|kendrick|superbowl/i)
+reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|biden|obama|republic|democrat|conservative|senate|congress|candidate|politic|healthcare|abortion|immigrants|fasci|\belon|\bmusk|tesla|capitalism|billionaire|inflation|corporation|greed|tariff|protest|\bCEO|india|\bswift\b|giveaway|\btrans\b|lbtq|lgbt|\bgay|gender|(need.*name)|(suggest.*name)|(name.*suggest)|(draw.*cat)|(cat.*draw)|doodle|adopt|shelter|circlejerk|memewar|basket|football|\bNBA\b|\bNFL\b|climate|blackpeople|whitepeople|tattoo|\baita|luigi|mangione|tiktok|kendrick|superbowl/i)
 
 reddit.com##article[aria-label]:has-text(/twitter|x\.com|nazi/i)
 
