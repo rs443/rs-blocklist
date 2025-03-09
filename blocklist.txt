@@ -41,15 +41,14 @@ finance.yahoo.com###Aside
 finance.yahoo.com###UH-0-HeaderDesktop-Proxy
 finance.yahoo.com###Navigation > .YDC-Nav
 
-
-perplexity.ai##h1:upward(div.flex)
 warcraftlogs.com##[href*="/subscribe"]:upward(5)
 torrentleech.org###topcontainer
 linkedin.com##span:has-text(Suggested):upward(.relative)
 youtube.com##.ytp-ce-element.ytp-ce-video
 
-www.perplexity.ai##div.default:has-text(Related):upward(div.mt-lg):upward(div)
-www.perplexity.ai##.md\:block.w-\[300px\].hidden.right-md.bottom-md.fixed
+perplexity.ai##h1:upward(div.flex)
+perplexity.ai##div.default:has-text(Related):upward(div.mt-lg):upward(div)
+perplexity.ai##.md\:block.w-\[300px\].hidden.right-md.bottom-md.fixed
 
 
 !gammalt test labb
