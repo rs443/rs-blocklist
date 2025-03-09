@@ -41,6 +41,8 @@ finance.yahoo.com###Aside
 finance.yahoo.com###UH-0-HeaderDesktop-Proxy
 finance.yahoo.com###Navigation > .YDC-Nav
 
+
+perplexity.ai##h1:upward(div.flex)
 warcraftlogs.com##[href*="/subscribe"]:upward(5)
 torrentleech.org###topcontainer
 linkedin.com##span:has-text(Suggested):upward(.relative)
