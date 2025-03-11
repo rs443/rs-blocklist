@@ -46,7 +46,7 @@ torrentleech.org###topcontainer
 linkedin.com##span:has-text(Suggested):upward(.relative)
 youtube.com##.ytp-ce-element.ytp-ce-video
 
-#perplexity.ai##h1:upward(div.flex)
+!perplexity.ai##h1:upward(div.flex)
 perplexity.ai##div.default:has-text(Related):upward(div.mt-lg):upward(div)
 perplexity.ai##.md\:block.w-\[300px\].hidden.right-md.bottom-md.fixed
 
