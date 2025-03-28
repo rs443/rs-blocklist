@@ -33,6 +33,8 @@ svd.se##div[data-engage-svd-title]:has-text(/trump|harris|\bvance|trump|\belon|m
 
 di.se##article.teaser:has-text(/trump|vance|trump|elon|musk|swift|bianca|tips|veckans|analys|kopa|koplage|köpa|fynd|pärl|plocka|krönika|krog|favorit/i)
 
+svt.se##[href*="masskjutning"]:upward(section)
+
 imdb.com##section > section[data-testid*=editorial]
 imdb.com##div.swiper-wrapper:upward(div.ipc-page-grid)
 imdb.com##h3.ipc-title__text:has-text(/explore|exclusive|featured/i):upward(4)
