@@ -9,7 +9,7 @@ reddit.com###TrendingPostsContainer
 reddit.com##h3:has-text(hidden):upward(3)
 reddit.com##.masthead
 reddit.com##article[aria-label]:has-text(/trump|\bvance|harris|kamala|biden|obama|bernie|sanders|\brfk|republic|democrat|conservative|senate|congress|candidate|politic|healthcare|abortion|immigrants|fasci|nazi|\belon|\bmusk|tesla|capitalism|billionaire|inflation|corporation|greed|tariff|\bmaga|protest|\bCEO|india|\bswift\b|giveaway|\btrans\b|lbtq|lgbt|\bgay|gender|(need.*name)|(suggest.*name)|(name.*suggest)|(draw.*cat)|(cat.*draw)|doodle|adopt|shelter|(passed.*away)|(rainbow.*bridge)|circlejerk|memewar|comic|basket|football|\bNBA\b|\bNFL\b|climate|blackpeople|whitepeople|tattoo|\baita|luigi|mangione|tiktok|kendrick|superbowl|doge/i)
-reddit.com##article[aria-label]:has-text(/twitter|x\.com|(hands.off)|gorilla/i)
+reddit.com##article[aria-label]:has-text(/twitter|x\.com|(hands.off)|gorilla|pope/i)
 reddit.com##[post-type="crosspost"]
 reddit.com###xpromo-bottom-sheet
 
