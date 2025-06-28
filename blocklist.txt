@@ -37,9 +37,9 @@ di.se##div.tapet-popup-overlay
 
 svt.se##[href*="masskjutning"]:upward(section)
 
-imdb.com##section > section[data-testid*=editorial]
-imdb.com##div.swiper-wrapper:upward(div.ipc-page-grid)
-imdb.com##h3.ipc-title__text:has-text(/explore|exclusive|featured/i):upward(4)
+!imdb.com##section > section[data-testid*=editorial]
+!imdb.com##div.swiper-wrapper:upward(div.ipc-page-grid)
+!imdb.com##h3.ipc-title__text:has-text(/explore|exclusive|featured/i):upward(4)
 
 finance.yahoo.com###Main
 finance.yahoo.com###Aside
