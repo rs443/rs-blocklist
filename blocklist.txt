@@ -9,7 +9,7 @@ reddit.com###TrendingPostsContainer
 reddit.com##h3:has-text(hidden):upward(3)
 reddit.com##.masthead
 reddit.com##article[aria-label]:has-text(/trump|harris|kamala|sanders|republic|democrat|conservative|senate|senator|congress|candidate|politic|healthcare|abortion|immigrants|fasci|nazi|\belon|\bmusk|tesla|capitalism|billionaire|inflation|corporation|greed|tariff|maga|protest|\bCEO|india|\bswift\b|giveaway|\btrans\b|lbtq|lgbt|\bgay|gender|pride|(need.*name)|(suggest.*name)|(name.*suggest)|(draw.*cat)|(cat.*draw)|doodle|adopt|shelter|(passed.*away)|(rainbow.*bridge)|goodbye|circlejerk|memewar|comic|basket|football|\bNBA\b|\bNFL\b|climate|blackpeople|whitepeople|tattoo|\baita|tiktok|kendrick|superbowl|doge|\bICE\b/i)
-reddit.com##article[aria-label]:has-text(/kirk|silksong|tyler|robinson|bynd/i)
+reddit.com##article[aria-label]:has-text(/kirk|silksong|tyler|robinson|bynd|mayor|zohran|mamdani|sherrill/i)
 
 reddit.com##[post-type="crosspost"]
 reddit.com##article:has(.flair-content:has-text(/pricecheck|circlejerk/i))
@@ -82,6 +82,7 @@ perplexity.ai##.md\:block.w-\[300px\].hidden.right-md.bottom-md.fixed
 
 !www.reddit.com##.Post:has-text(musk)
 !reddit.com##[href*="capitalism"],[href*="trump"],[href*="elon"],[href*="musk"],[href*="tesla"],[href*="swift"],[href*="trans"],[href*="giveaway"],[href*="democrat"],[href*="republican"],[href*="conserv"],[href*="vance"],[href*="biden"],[href*="harris"],[href*="kamala"],[href*="walz"],[href*="india"]:upward(2)
+
 
 
 
