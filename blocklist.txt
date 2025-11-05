@@ -55,6 +55,7 @@ finance.yahoo.com###Navigation > .YDC-Nav
 warcraftlogs.com##[href*="/subscribe"]:upward(5)
 torrentleech.org###topcontainer
 youtube.com##.ytp-ce-element.ytp-ce-video
+linkedin.com##span.update-components-header__text-view:has-text(Suggested):upward(div.fie-impression-container)
 !linkedin.com##span:has-text(Suggested):upward(.relative)
 
 !perplexity.ai##h1:upward(div.flex)
@@ -82,6 +83,7 @@ perplexity.ai##.md\:block.w-\[300px\].hidden.right-md.bottom-md.fixed
 
 !www.reddit.com##.Post:has-text(musk)
 !reddit.com##[href*="capitalism"],[href*="trump"],[href*="elon"],[href*="musk"],[href*="tesla"],[href*="swift"],[href*="trans"],[href*="giveaway"],[href*="democrat"],[href*="republican"],[href*="conserv"],[href*="vance"],[href*="biden"],[href*="harris"],[href*="kamala"],[href*="walz"],[href*="india"]:upward(2)
+
 
 
 
