@@ -29,7 +29,7 @@ facebook.com##:matches-path(marketplace) object > a[href^="/ads/"] > span:not(:e
 aftonbladet.se##[href*="kolumn"],[href*="kultur"],[href*="recept"],[href*="ledare"],[href*="kolumnist"],[href*="duplantis"],[href*="kirk"]:upward(div)
 aftonbladet.se##div[class*="adv"]
 aftonbladet.se##svg:has-text(abplus):upward(a)
-aftonbladet.se##h2:has-text(/annons|mello/i):upward(3)
+aftonbladet.se##h2:has-text(/annons|mello|melodifestivalen|bianca|ingrosso/i):upward(3)
 aftonbladet.se##p:has-text(/annons|wellobe|podd|godare|ledare|kultur|recension|astrolog|debatt|mello/i):upward(a)
 *.schibstedt.media/*/*.js
 
@@ -83,6 +83,7 @@ perplexity.ai##.md\:block.w-\[300px\].hidden.right-md.bottom-md.fixed
 
 !www.reddit.com##.Post:has-text(musk)
 !reddit.com##[href*="capitalism"],[href*="trump"],[href*="elon"],[href*="musk"],[href*="tesla"],[href*="swift"],[href*="trans"],[href*="giveaway"],[href*="democrat"],[href*="republican"],[href*="conserv"],[href*="vance"],[href*="biden"],[href*="harris"],[href*="kamala"],[href*="walz"],[href*="india"]:upward(2)
+
 
 
 
