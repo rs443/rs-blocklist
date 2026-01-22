@@ -2,3 +2,4 @@
 ! Expires: 2 hours
 
 music.youtube.com##ytmusic-guide-entry-renderer:has(.title.ytmusic-guide-entry-renderer:has-text(Uppgradera))
+music.youtube.com##ytmusic-carousel-shelf-renderer:has(.title.ytmusic-carousel-shelf-basic-header-renderer:has-text(Bortglömda favoriter))
