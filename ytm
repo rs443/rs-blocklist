@@ -1,0 +1,4 @@
+! Title: RS YTM blocklist
+! Expires: 2 hours
+
+music.youtube.com##ytmusic-guide-entry-renderer:has(.title.ytmusic-guide-entry-renderer:has-text(Uppgradera))
