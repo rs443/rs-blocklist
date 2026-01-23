@@ -4,6 +4,7 @@
 music.youtube.com##ytmusic-guide-entry-renderer:has(.title.ytmusic-guide-entry-renderer:has-text(Uppgradera))
 music.youtube.com##ytmusic-guide-entry-renderer:has(.title.ytmusic-guide-entry-renderer:has-text(Upgrade))
 music.youtube.com##ytmusic-carousel-shelf-renderer:has(.title.ytmusic-carousel-shelf-basic-header-renderer:has-text(Bortglömda favoriter))
+music.youtube.com##ytmusic-carousel-shelf-renderer:has(.title.ytmusic-carousel-shelf-basic-header-renderer:has-text(Forgotten favorites))
 
 music.youtube.com###player[player-ui-state="MINIPLAYER"]:style(--ytmusic-mini-player-height: 100px !important; height: 100px !important;)
 music.youtube.com##ytmusic-player-page:style(--ytmusic-player-page-side-panel-width:50% !important;)
