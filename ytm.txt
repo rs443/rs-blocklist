@@ -10,3 +10,6 @@ music.youtube.com###player[player-ui-state="MINIPLAYER"]:style(--ytmusic-mini-pl
 music.youtube.com##ytmusic-player-page:style(--ytmusic-player-page-side-panel-width:50% !important;)
 
 music.youtube.com##ytmusic-player video[playsinline]:style(opacity: 0.6 !important; border: 2px dashed #111 !important;)
+
+! göm Mix
+youtube.com##ytd-rich-item-renderer:has(a[href*="start_radio=1"])
