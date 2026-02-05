@@ -13,3 +13,6 @@ music.youtube.com##ytmusic-player video[playsinline]:style(opacity: 0.6 !importa
 
 ! göm Mixar från youtube.com
 youtube.com##ytd-rich-item-renderer:has(a[href*="start_radio=1"])
+
+! prova youtube music
+music.youtube.com##tp-yt-paper-dialog
