@@ -56,10 +56,12 @@ finance.yahoo.com###Navigation > .YDC-Nav
 warcraftlogs.com##[href*="/subscribe"]:upward(5)
 torrentleech.org###topcontainer
 youtube.com##.ytp-ce-element.ytp-ce-video
-linkedin.com##span.update-components-header__text-view:has-text(Suggested):upward(div.fie-impression-container)
-linkedin.com##p:has-text(Suggested):upward(3)
-linkedin.com##p:has-text(Promoted):upward(3)
-!linkedin.com##span:has-text(Suggested):upward(.relative)
+
+linkedin.com##div[role="listitem"]:has(p:has-text(/^Suggested$/))
+!linkedin.com##span.update-components-header__text-view:has-text(Suggested):upward(div.fie-impression-container)
+!linkedin.com##p:has-text(Suggested):upward(3)
+!linkedin.com##p:has-text(Promoted):upward(3)
+
 
 !perplexity.ai##h1:upward(div.flex)
 perplexity.ai##div.default:has-text(Related):upward(div.mt-lg):upward(div)
