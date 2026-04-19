@@ -16,3 +16,8 @@ music.youtube.com##.ytmusic-popup-container.style-scope:has(.ytmusic-mealbar-pro
 
 ! göm Mixar från youtube.com
 youtube.com##ytd-rich-item-renderer:has(a[href*="start_radio=1"])
+
+! YouTube Music - Förhindra "Är du kvar?"-paus
+music.youtube.com##+js(set-constant, yt.config_.YOUTUBE_WATCH_NEXT_CONTINUE_PLAYBACK_ACTION, true)
+music.youtube.com##+js(set-constant, yt.config_.EXCESSIVE_RELOADS_THRESHOLD, 99999)
+music.youtube.com##ytmusic-you-there-renderer, paper-dialog:has(ytmusic-you-there-renderer)
