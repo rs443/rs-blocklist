@@ -32,6 +32,7 @@ aftonbladet.se##div[class*="adv"]
 aftonbladet.se##svg:has-text(abplus):upward(a)
 aftonbladet.se##h2:has-text(/annons|mello|melodifestivalen|bianca|ingrosso/i):upward(3)
 aftonbladet.se##p:has-text(/annons|wellobe|podd|godare|ledare|kultur|recension|astrolog|debatt|mello/i):upward(a)
+aftonbladet.se##div[class*="_teaserContainer_"]:has(a[href*="/podcasts/"])
 *.schibstedt.media/*/*.js
 
 svd.se##a:has-text(/trump|vance|trump|elon|musk|swift|bianca|ledare|träning|kompakt/i):upward(div)
